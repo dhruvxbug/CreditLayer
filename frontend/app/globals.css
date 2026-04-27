@@ -1,0 +1,18 @@
+@import "katex/dist/katex.min.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  /* Minimal off-white background with crisp dark text inspired by startup design (lime accents) */
+  @apply bg-[#f4f4f0] text-neutral-900 antialiased selection:bg-[#d4ff00] selection:text-neutral-900 font-sans tracking-tight;
+}
+
+a {
+  @apply transition-colors duration-200 text-neutral-900 hover:text-neutral-600 underline decoration-2 decoration-[#d4ff00] underline-offset-4 hover:bg-[#d4ff00] hover:no-underline;
+}
