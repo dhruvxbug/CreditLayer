@@ -1,9 +1,6 @@
 # CreditLayer (Mini-DeFi)
 
 AI + ZK powered under-collateralized lending on EVM chains.
-
-This repository contains a full-stack hackathon project that combines:
-
 - on-chain **credit identity** via a soul-bound NFT,
 - off-chain **AI scoring** via a Python/LangGraph agent,
 - optional **zero-knowledge threshold proofs** via Noir,
